@@ -1,0 +1,535 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.flex-container
+{
+    background-color: #EAAD00;
+}
+.logo img
+{
+    height:50px;
+    padding-left: 30px;
+}
+.list ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    padding-left: 20px;
+}
+.list ul li{
+    margin-right: 48px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.search {
+    position: relative;
+    padding-right: 26px;
+}
+
+#searchbar {
+    height: 40px;
+    border: 2px solid white;
+    background-color: #EAAD00;
+    color: white;
+    padding-left: 70px;
+}
+#intro{
+    background-color: #EAAD00;
+    padding:50px;
+}
+.intropage{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.rightside{
+    padding-left:20px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color:#EAAD00;
+    object-position: 15% 100%;
+}
+.leftside
+{
+    height: 200px;
+    padding-right:20px;
+    color: white;
+}
+
+.leftside h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.leftside p{
+    font-size: 30px;
+}
+
+.contactus{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 5%;
+    background-color: #00C0CC;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#about{
+    background-color: white;
+    padding:50px;
+    height: 90%;
+    padding-bottom: 106px;
+}
+.aboutus{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.leftsideabout
+{
+    height:249px;
+    padding-right:20px;
+    color: black;
+}
+
+.leftsideabout h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.leftsideabout p{
+    font-size: 30px;
+}
+
+.ourservices {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 5%;
+    background-color: #EAAD00;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.rightsideabout {
+    position: relative;
+    height: 433px;
+    width: 481px;
+    padding-top: 117px;
+}
+
+.rightsideabout .alt {
+    height: 319px;
+    width: 323px;
+    background-image: url(about-image.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+}
+.rightsideabout i{
+    position: absolute;
+}
+.rightsideabout svg{
+    padding-top: 146px;
+    padding-left: 141px;
+    cursor: pointer;
+}
+
+.rightsideabout .overlay {
+    height: 318px;
+    width: 325px;
+    background-color: #EAAD00;
+    opacity: 0.4;
+    position: absolute;
+}
+
+.rightsideabout .boximage {
+    position: absolute;
+    height: 81px;
+    width: 107px;
+    background-color: #EAAD00;
+    right: 286px;
+    bottom: 68px;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.details h3 {
+    margin-right: 20px;
+    font-size: 40px;
+    
+}
+
+.details p{
+    margin-right: 20px; 
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.box1{
+    width:360px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.box2{
+    width:360px;
+    text-align: center;
+}
+
+.box3{
+    width:360px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.bigbox
+{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: white;
+    font-size: 2rem;
+}
+.boxsricing
+{
+    background-color: #EAAD00;
+    padding: 50px;
+    font-size: 1rem;
+}
+.doctor
+{
+    padding-top: 200px;
+    padding: 50px;
+    font-size: 1rem;
+}
+.doctor .instagram{
+    
+    height: 40px;
+    width: 40px;
+    background-color: #EAAD00;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.doctor .instagram svg{
+    padding-top: 7px;
+}
+.doctor .facebook{
+    
+    height: 42px;
+    width: 42px;
+    background-color: #EAAD00;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.doctor .facebook svg{
+    padding-top: 8px;
+}
+.doctor .twitter{
+    
+    height: 40px;
+    width: 40px;
+    background-color: #EAAD00;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.doctor .twitter svg{
+    padding-top: 7px;
+}
+
+.doctor .whatapp{
+    
+    height: 40px;
+    width: 40px;
+    background-color: #EAAD00;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.doctor .whatapp svg{
+    padding-top: 7px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media  div {
+
+    margin-right: 10px;
+}
+.boxes1{
+    width:360px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+.boxes2{
+    width:360px;
+    text-align: center;
+}
+
+.boxes3{
+    width:360px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.doctor-details
+{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: white;
+    font-size: 2rem;
+    padding-top: 100px;
+}
+.heading
+{
+    color: black;
+}
+
+.doctor-specialty {
+    position: relative;
+}
+
+.doctor-specialty img {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+}
+
+.doctor-specialty .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #EAAD00;
+    opacity: 0.9;
+    z-index: 1;
+}
+.medical {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    padding: 70px ;
+}
+
+.medical .medical-box {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.medical .medical-box .images {
+    padding-right: 1rem;
+}
+
+.medical .medical-box img {
+    width: 40px;
+    height: 40px; 
+}
+
+.medical .medical-box .heading {
+    margin: 0;
+}
+
+.medical-box2 svg{
+    height: 250px;
+    width: 250px;
+    position:relative;
+    z-index: 3;
+}
+.medical-box1 .heading{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+.medical-box2 .heading{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.medical-box3 .heading{
+    color: white;
+    text-align: center;
+}
+.medical-box1 .images{
+    height: 200px;
+    width: 200px;
+    padding-bottom: 20px
+}
+.Posts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Posts h3 {
+    margin-right: 20px;
+    font-size: 40px;
+    
+}
+
+.Posts p{
+    margin-right: 20px; 
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.postbox1{
+    width:370px;
+    text-align: start;
+    margin-left: 20px;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.postbox2{
+    width:370px;
+    text-align:start;;
+    padding-left: 10px;
+    border: 1px solid black;
+}
+
+.postbox3{
+    width:370px;
+    text-align:start;;
+    padding-left: 10px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.postbox
+{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    color: white;
+    font-size: 2rem;
+}
+.Recentposts
+{
+    background-color: white;
+    padding: 50px;
+}
+.postbox1 .heading p{
+    color: #00C0CC;
+    font-weight: 900;
+}
+.postbox2 .heading p{
+    color: #00C0CC;
+    font-weight: 900;
+}
+.postbox3 .heading p{
+    color: #00C0CC;
+    font-weight: 900;
+}
+
+.contactus-main
+{
+    background-color: black;
+}
+
+.contactus-main .postbox .postbox1 .heading ul li{
+    color: white;
+    list-style: none;
+    font-size: 25px;
+}
+.contactus-main .postbox .postbox1 h1{
+    padding-left: 40px;
+}
+
+.contactus-main .postbox .postbox2 .heading ul li{
+    color: white;
+    list-style: none;
+    font-size: 23px;
+    padding-top: 3px;
+}
+.contactus-main .postbox .postbox2 h1{
+    padding-left: 40px;
+}
+.contactus-main .postbox .postbox3 h1{
+    padding-top: 35px;
+    text-align: end;
+}
+.contactus-main .postbox .postbox3 p{
+    text-align: end;
+    font-size: 25px;
+}
+.contactus-main .postbox .postbox3 input{
+    width: 216px;
+    height: 31px;
+    position: absolute;;
+    padding-left: 42px;
+}
+.contactus-main .postbox .postbox3 .inputtype{
+    position: relative;
+    padding-left: 44px;
+    justify-content: end;
+    align-items: end;
+}
+.contactus-main .postbox .postbox3 .inputtype .plain{
+    height: 35px;
+    width: 45px;
+    background-color: #00C0CC;
+    position: absolute;
+    margin-left: 218px;
+}
+.contactus-main .postbox .postbox3 .inputtype .plain svg{
+    padding-left: 10px;
+}
+.social-media div {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 188px;
+    top: 4%;
+    z-index: 1;
+    height: 37px;
+    width: 48px;
+    background-color: #00C0CC;
+}
+
+.search-icon svg{
+    width: 22px;
+    height: 35px;
+    padding-left: 12px;
+}
+.search-icon i{
+    width: 20px;
+    height: 35px;
+    fill: white;
+}
